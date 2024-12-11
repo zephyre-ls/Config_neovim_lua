@@ -1,3 +1,18 @@
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>PLUGGINS</b></u>
+
+ 	
+    gitsigns = 
+    header =
+    hlcunk = 
+    kanagawa =
+    lualine =
+    nvim-tree = 
+    telescope =
+    treesitter =
+    cellular-automaton = 
+    conform =
+    dressing =
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>Raccourci NVIM </b></u>
 
 	gg = debut fichier
