@@ -1,143 +1,108 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>PLUGGINS</b></u>
+<p align="center">
 
- 	
-    gitsigns = 
-    header =
-    hlcunk = 
-    kanagawa =
-    lualine =
-    nvim-tree = 
-    telescope =
-    treesitter =
-    cellular-automaton = 
-    conform =
-    dressing =
+<u><b>PLUGINS</b></u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>Raccourci NVIM </b></u>
+| **Plugin**                 | **Description**            |
+|----------------------------|----------------------------|
+| `gitsigns`                 | Gestion des changements Git dans Neovim |
+| `header`                   | Ajouter des en-têtes personnalisés dans le code |
+| `hlcunk`                   | Gestion des highlight groups |
+| `kanagawa`                 | Thème de couleurs pour Neovim |
+| `lualine`                  | Barre de statut dynamique pour Neovim |
+| `nvim-tree`                | Explorateur de fichiers pour Neovim |
+| `telescope`                | Interface de recherche et de filtrage dans Neovim |
+| `treesitter`               | Amélioration de la syntaxe et du parsing dans Neovim |
+| `cellular-automaton`       | Gadget |
+| `conform`                  | Validation de code dans Neovim |
+| `dressing`                 | Plugin d'interface pour améliorer les menus dans Neovim |
 
-	gg = debut fichier
+</p>
 
-	G = fin
-
-	:50 = allez a une ligne precise 
-
-	/mot = cherche un mot fichier ; 
+<p align="center">
 	
-	( n= suivant; N= precedent) 
+<u><b>Raccourcis NVIM</b></u>
 
+| **Raccourci**           | **Action**                               |
+|-------------------------|------------------------------------------|
+| `gg`                    | Début du fichier                         |
+| `G`                     | Fin du fichier                           |
+| `:50`                   | Aller à une ligne précise                |
+| `/mot`                  | Chercher un mot dans le fichier          |
+| `n`                     | Suivant dans la recherche                |
+| `N`                     | Précédent dans la recherche              |
+| `:split` ou `:sp`       | Division horizontale de l'écran          |
+| `:vsplit` ou `:vsp`     | Division verticale de l'écran            |
+| `Ctrl + w`              | Se déplacer dans les fenêtres (h, j, k, l)|
+| `Ctrl + n`              | Auto-complétion                          |
+| `y`                     | Copier                                   |
+| `dd`                    | Couper                                   |
+| `yy`                    | Copier une ligne                         |
+| `3yy`                   | Copier trois lignes                      |
+| `y$`                    | Copier jusqu'à la fin de la ligne        |
+| `yw`                    | Copier le mot sous le curseur            |
+| `p`                     | Coller après le curseur                  |
+| `P`                     | Coller avant le curseur                  |
+| `V`                     | Mode visuel pour une ligne entière      |
+| `Ctrl + v`              | Sélectionner un bloc                     |
+| `+ y`                   | Copier dans le presse-papiers système    |
+| `"+y`                   | Copier dans le presse-papiers            |
+| `u`                     | Annuler la dernière action              |
+| `Ctrl + r`              | Rétablir l'action annulée                |
+| `space + e`             | Ouvrir l'explorateur de fichiers         |
+| `maj + l, maj + h`      | Se déplacer dans l'explorateur           |
+| `maj + i`               | Déplacer une ligne vers le haut          |
+| `:tabnew`               | Ouvrir un nouvel onglet                  |
+| `:checkhealth`          | Vérifier la configuration de Neovim     |
 
-	:split (ou :sp) = divise horizontalement 
+</p>
 
-	:vsplit (ou :vsp) = "    verticalement
-
-
-	ctrl  w = se deplacer suivie de h j k l 
-
-	ctrl -n = autocompletion 
-
-
-	COPIER = y COUPER = dd 
+<p align="center">
 	
-	 yy (1ligne) 
+<u><b>Raccourcis TERMINAL</b></u>
+
+| **Raccourci**           | **Action**                               |
+|-------------------------|------------------------------------------|
+| `Ctrl + Alt + t`        | Ouvrir un terminal                       |
+| `Maj + Ctrl + t`        | Ouvrir un nouvel onglet dans le terminal |
+| `Maj + Ctrl + w`        | Fermer un onglet dans le terminal        |
+| `Ctrl + PageUp/PageDown`| Changer d'onglet dans le terminal        |
+| `Ctrl + l`              | Clear (effacer l'écran)                  |
+| `Ctrl + a`              | Aller au début de la ligne               |
+| `Ctrl + e`              | Aller à la fin de la ligne               |
+| `Alt + Space`           | Menu de la fenêtre                       |
+
+</p>
+
+<p align="center">
+<u><b>Raccourcis BUREAU</b></u>
+
+| **Raccourci**           | **Action**                               |
+|-------------------------|------------------------------------------|
+| `Super + flèche D/G`    | Déplacer la fenêtre à gauche/droite      |
+| `Super + flèche H/B`    | Agrandir/rétrécir la fenêtre             |
+
+</p>
+
+<p align="center">
 	
-	 3yy(plusieurs lignes) 
-	
-	 y$ (curseur => fin de ligne) 
-	
-	 yw (mot du curseur) 
-	
-	COLLER = p (apres curseur) 
-	
-  	P (avant curseur) 
+<u><b>Raccourcis INTERNET</b></u>
 
-	Visual = V (ligne entiere)
-	
-	 ctrl + v = selection bloc 
-	
-	 + y = copier
+| **Raccourci**           | **Action**                               |
+|-------------------------|------------------------------------------|
+| `Ctrl + t`              | Ouvrir un nouvel onglet                  |
+| `Ctrl + Maj + t`        | Réouvrir le dernier onglet fermé         |
+| `Ctrl + w`              | Fermer un onglet                         |
+| `Ctrl + n`              | Ouvrir une nouvelle fenêtre              |
+| `Ctrl + q`              | Quitter la fenêtre actuelle              |
+| `Ctrl + Maj + o`        | Ouvrir la page des favoris              |
+| `Ctrl + j`              | Ouvrir la page des téléchargements      |
+| `F5`                    | Actualiser la page                       |
+| `Ctrl + +`              | Zoomer                                   |
+| `Ctrl + -`              | Dézoomer                                 |
+| `Tab`                   | Se déplacer d'un lien à l'autre         |
+| `Tab + Maj`             | Retour en arrière                       |
+| `Alt + flèche gauche`   | Retour arrière dans l'historique        |
+| `Ctrl + u`              | Voir le code source de la page           |
 
-	PRESSE PAPIER = "+y = copier 
-		
- 	 "+p = coller 
+</p>
 
-
-	u = annule derniere action
-
-	ctrl + -r = refait l action annule 
-
-
-	space + e = explo fichier 
-
-	j k pour moove dans l explorateur de fichier 
-
-	maj + l, maj + h = se deplacer 
-
-	maj + i = deplacer une ligne haut (- i) deplace bas 
-
-
-	:tabnew = ouvre un nouvel onglet vim
-
-	:checkhealth = verif config
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>Raccourci TERMINAL</b></u>
-
-
-	ctrl + alt + t = ouvre terminal
-
-	maj + ctrl + t = ouvrir un onglet
-
-	maj + ctrl + w = ferme un onglet 
-
-	ctrl + pageup (ou page down) = bouger d onglet en onglet 
-
-
-	ctrl + l = clear 
-
-	ctrl + a = debut ligne commande 
-
-	ctrl + e = fin de ligne 
-
-	alt + space = menu fenetre 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>Raccourci BUREAU</b></u>
-
-
-	super + fleche d/g = bouge fenetre D/G
-
-	super + fleche h/b = aggrandit retrecit 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><b>Raccourci INTERNET</b></u>
-
-
-	ctrl + t = ouvre new onglet (ctrl + n + maj = prive)
-
-	ctrl + chiffre = ballade dans onglet 
-
-	ctrl + maj + t = reeouvre dernier onglet ferme
-
-	ctrl + w = ferme onglet
-
-	ctrl + n = new fenetre 
-
-	ctrl + q = quitter 
-
-	ctrl + maj + o = page fav
-
-	ctrl + j = page dl
-
-	F5 = actualise 
-
-	ctrl + + = zoom (- = dezoom) 
-
-	tab = se deplace de lien en lien
-
-	tab + maj = retour arriere 
-
-	atl + d = barre d adresse 
-
-	alt + fleche gauche = retour arriere (fleche droite) 
-
-	ctrl + u = code page 
