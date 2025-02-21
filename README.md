@@ -22,39 +22,48 @@
 	
 <u><b>Raccourcis NVIM</b></u>
 
-| **Raccourci**           | **Action**                               |
-|-------------------------|------------------------------------------|
-| `gg`                    | Début du fichier                         |
-| `G`                     | Fin du fichier                           |
-| `:50`                   | Aller à une ligne précise                |
-| `/mot`                  | Chercher un mot dans le fichier          |
-| `n`                     | Suivant dans la recherche                |
-| `N`                     | Précédent dans la recherche              |
-| `:split` ou `:sp`       | Division horizontale de l'écran          |
-| `:vsplit` ou `:vsp`     | Division verticale de l'écran            |
-| `Ctrl + w`              | Se déplacer dans les fenêtres (h, j, k, l)|
-| `Ctrl + n`              | Auto-complétion                          |
-| `y`                     | Copier                                   |
-| `dd`                    | Couper                                   |
-| `yy`                    | Copier une ligne                         |
-| `3yy`                   | Copier trois lignes                      |
-| `y$`                    | Copier jusqu'à la fin de la ligne        |
-| `yw`                    | Copier le mot sous le curseur            |
-| `p`                     | Coller après le curseur                  |
-| `P`                     | Coller avant le curseur                  |
-| `V`                     | Mode visuel pour une ligne entière      |
-| `Ctrl + v`              | Sélectionner un bloc                     |
-| `+ y`                   | Copier dans le presse-papiers système    |
-| `"+y`                   | Copier dans le presse-papiers            |
-| `u`                     | Annuler la dernière action              |
-| `Ctrl + r`              | Rétablir l'action annulée                |
-| `space + e`             | Ouvrir l'explorateur de fichiers         |
-| `maj + l, maj + h`      | Se déplacer dans l'explorateur           |
-| `maj + i`               | Déplacer une ligne vers le haut          |
-| `:tabnew`               | Ouvrir un nouvel onglet                  |
-| `:checkhealth`          | Vérifier la configuration de Neovim     |
-| `0`			  | Aller au debut de ligne - NORMAL |
-| `$`		          | Aller fin de ligne - NORMAL |
+| **Raccourci**           | **Action**                               | **Mode**                |
+|-------------------------|------------------------------------------|-------------------------|
+| `gg`                    | Début du fichier                         | NORMAL                  |
+| `G`                     | Fin du fichier                           | NORMAL                  |
+| `:50`                   | Aller à une ligne précise                | NORMAL                  |
+| `0`                     | Aller au début de la ligne               | NORMAL                  |
+| `$`                     | Aller à la fin de la ligne               | NORMAL                  |
+| `:split` ou `:sp`       | Division horizontale de l'écran          | NORMAL                  |
+| `:vsplit` ou `:vsp`     | Division verticale de l'écran            | NORMAL                  |
+| `Ctrl + w`              | Se déplacer dans les fenêtres (h, j, k, l) | NORMAL                  |
+| `Ctrl + n`              | Auto-complétion                          | INSERT                  |
+| `y`                     | Copier                                   | NORMAL                  |
+| `yy`                    | Copier une ligne                         | NORMAL                  |
+| `3yy`                   | Copier trois lignes                      | NORMAL                  |
+| `y$`                    | Copier jusqu'à la fin de la ligne        | NORMAL                  |
+| `yw`                    | Copier le mot sous le curseur            | NORMAL                  |
+| `p`                     | Coller après le curseur                  | NORMAL                  |
+| `P`                     | Coller avant le curseur                  | NORMAL                  |
+| `dd`                    | Couper                                   | NORMAL                  |
+| `V`                     | Mode visuel pour une ligne entière      | NORMAL                  |
+| `Ctrl + v`              | Sélectionner un bloc                     | VISUAL                  |
+| `+ y`                   | Copier dans le presse-papiers système    | NORMAL, VISUAL          |
+| `"+y`                   | Copier dans le presse-papiers            | NORMAL, VISUAL          |
+| `u`                     | Annuler la dernière action              | NORMAL, INSERT          |
+| `Ctrl + r`              | Rétablir l'action annulée                | NORMAL, INSERT          |
+| `n`                     | Suivant dans la recherche                | NORMAL                  |
+| `N`                     | Précédent dans la recherche              | NORMAL                  |
+| `/mot`                  | Chercher un mot dans le fichier          | NORMAL                  |
+| `:e`                    | Recharger le fichier                    | NORMAL                  |
+| `:w`                    | Sauvegarder le fichier                  | NORMAL, INSERT          |
+| `:q`                    | Quitter Neovim                           | NORMAL                  |
+| `:wq`                   | Sauvegarder et quitter                  | NORMAL                  |
+| `:x`                    | Sauvegarder et quitter si changement     | NORMAL                  |
+| `space + e`             | Ouvrir l'explorateur de fichiers         | NORMAL                  |
+| `maj + l, maj + h`      | Se déplacer dans l'explorateur           | NORMAL                  |
+| `maj + i`               | Déplacer une ligne vers le haut          | NORMAL                  |
+| `:tabnew`               | Ouvrir un nouvel onglet                  | NORMAL                  |
+| `:checkhealth`          | Vérifier la configuration de Neovim     | NORMAL                  |
+| `Ctrl + c`              | Quitter le mode d'édition               | INSERT                  |
+| `Ctrl + o`              | Revenir à la position précédente         | NORMAL                  |
+| `Ctrl + i`              | Aller à la position suivante             | NORMAL                  |
+
 
 
 
