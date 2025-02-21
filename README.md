@@ -29,8 +29,6 @@
 | `:50`                   | Aller à une ligne précise                | NORMAL                  |
 | `0`                     | Aller au début de la ligne               | NORMAL                  |
 | `$`                     | Aller à la fin de la ligne               | NORMAL                  |
-| `:split` ou `:sp`       | Division horizontale de l'écran          | NORMAL                  |
-| `:vsplit` ou `:vsp`     | Division verticale de l'écran            | NORMAL                  |
 | `Ctrl + w`              | Se déplacer dans les fenêtres (h, j, k, l) | NORMAL                  |
 | `Ctrl + n`              | Auto-complétion                          | INSERT                  |
 | `y`                     | Copier                                   | NORMAL                  |
@@ -58,11 +56,31 @@
 | `space + e`             | Ouvrir l'explorateur de fichiers         | NORMAL                  |
 | `maj + l, maj + h`      | Se déplacer dans l'explorateur           | NORMAL                  |
 | `maj + i`               | Déplacer une ligne vers le haut          | NORMAL                  |
-| `:tabnew`               | Ouvrir un nouvel onglet                  | NORMAL                  |
-| `:checkhealth`          | Vérifier la configuration de Neovim     | NORMAL                  |
 | `Ctrl + c`              | Quitter le mode d'édition               | INSERT                  |
 | `Ctrl + o`              | Revenir à la position précédente         | NORMAL                  |
 | `Ctrl + i`              | Aller à la position suivante             | NORMAL                  |
+
+
+| **Commande**           | **Description**                                                   |
+|------------------------|-------------------------------------------------------------------|
+| `:checkhealth`         | Vérifie la configuration de Neovim et signale les problèmes      |
+| `:TSInstallInfo`       | Affiche des informations sur l'installation des langages Treesitter |
+| `:verbose map`         | Affiche les raccourcis clavier et les actions associées, avec le fichier de configuration |
+| `:verbose set`         | Affiche les options actuelles et leur fichier de configuration |
+| `:echo &runtimepath`   | Affiche le chemin des plugins et des configurations de Neovim   |
+| `:version`             | Affiche la version de Neovim et les informations de compilation |
+| `:redir > fichier.txt` | Redirige la sortie de Neovim dans un fichier texte                |
+| `:help`                | Affiche l'aide Neovim pour une commande ou fonctionnalité        |
+| `:e fichier`           | Ouvrir un fichier dans Neovim                                     |
+| `:tabnew`              | Ouvrir un nouvel onglet dans Neovim                               |
+| `:vsplit` ou `:vsp`    | Diviser l'écran verticalement                                     |
+| `:split` ou `:sp`      | Diviser l'écran horizontalement                                   |
+| `:ls`                  | Liste des buffers ouverts                                        |
+| `:b <num>`             | Passer au buffer spécifié par le numéro                           |
+| `:Telescope`           | Utiliser le plugin Telescope pour la recherche et la navigation    |
+| `:silent`              | Exécuter une commande sans afficher de message dans la ligne de commande |
+| `:messages`            | Afficher tous les messages précédemment affichés     |
+| `:redir END`           | Arrêter la redirection de la sortie et afficher le contenu collecté |
 
 
 
