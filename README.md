@@ -4,17 +4,17 @@
 
 | **Plugin**                 | **Description**            |
 |----------------------------|----------------------------|
-| `gitsigns`                 | Gestion des changements Git dans Neovim |
-| `header`                   | Ajouter des en-têtes personnalisés dans le code |
+| `gitsigns`                 | Gestion des changements Git  |
+| `header`                   | Ajouter des en-têtes |
 | `hlcunk`                   | Gestion des highlight groups |
-| `kanagawa`                 | Thème de couleurs pour Neovim |
-| `lualine`                  | Barre de statut dynamique pour Neovim |
-| `nvim-tree`                | Explorateur de fichiers pour Neovim |
-| `telescope`                | Interface de recherche et de filtrage dans Neovim |
-| `treesitter`               | Amélioration de la syntaxe et du parsing dans Neovim |
+| `kanagawa`                 | Thème de couleurs |
+| `lualine`                  | Personnalise barre d'état en bas de l'éditeur|
+| `nvim-tree`                | Explorateur de fichiers |
+| `telescope`                | Interface de recherche et de filtrage |
+| `treesitter`               | Coloration synthaxique |
 | `cellular-automaton`       | Gadget |
-| `conform`                  | Validation de code dans Neovim |
-| `dressing`                 | Plugin d'interface pour améliorer les menus dans Neovim |
+| `conform`                  |         |
+| `dressing`                 | |
 
 </p>
 
