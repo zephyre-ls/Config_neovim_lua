@@ -53,6 +53,10 @@
 | `maj + i`               | Déplacer une ligne vers le haut          |
 | `:tabnew`               | Ouvrir un nouvel onglet                  |
 | `:checkhealth`          | Vérifier la configuration de Neovim     |
+| `0`			  | Aller au debut de ligne - NORMAL |
+| `$`		          | Aller fin de ligne - NORMAL |
+
+
 
 </p>
 
