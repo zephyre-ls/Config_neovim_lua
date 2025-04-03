@@ -1,12 +1,12 @@
- return {
+-- Explorateur de fichier " espace + E" pour y accéder;
+return {
   "nvim-tree/nvim-tree.lua",
-	version = "*",
-  lazy = false,  -- Le plugin est chargé immédiatement sans attendre un événement
+	version = "*", --sert a utiliser la derniere version disponible 
+  lazy = false,
   dependencies = {
-    "nvim-tree/nvim-web-devicons",  -- Pour ajouter des icônes aux fichiers
+    "nvim-tree/nvim-web-devicons",  -- Pour ajouter des icônes aux fichiers dans l'explorateur
   },
   config = function()
-    -- Configuration de base de NvimTree
     require("nvim-tree").setup({
       auto_reload_on_write = true,   -- Recharge l'explorateur lorsqu'un fichier est modifié
       disable_netrw = true,          -- Désactive netrw, l'explorateur par défaut de Vim
@@ -20,8 +20,6 @@
         side = "left",               -- Position de l'explorateur à gauche
       },
     })
-
-    -- On lie <leader>e pour ouvrir/fermer l'explorateur
     vim.keymap.set(
       "n",
       "<leader>e",

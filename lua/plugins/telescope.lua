@@ -1,9 +1,9 @@
+-- Pluggin de recherche et navigation dans les fichiers.
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    -- fzf implémentation en C pour plus de rapidité
     { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
     "nvim-tree/nvim-web-devicons",
   },
@@ -18,7 +18,7 @@ return {
         prompt_prefix = " ",
         selection_caret = " ",
         path_display = { "smart" },
-        file_ignore_patterns = { ".git/", "node_modules" },
+        file_ignore_patterns = { ".git/", "node_modules" }, --ignore ses fichiers la dans la recherche
 
         mappings = {
           i = {
@@ -29,32 +29,32 @@ return {
       },
     })
 
-    telescope.load_extension("fzf")
+    telescope.load_extension("fzf") --extension qui permet une recherche plus repide et perfo
 
     -- set keymaps
     local keymap = vim.keymap -- for conciseness
 
     keymap.set(
       "n",
-      "<leader>ff",
+      "<leader>ff", -- espace +ff
       "<cmd>Telescope find_files<cr>",
       { desc = "Recherche de chaînes de caractères dans les noms de fichiers" }
     )
     keymap.set(
       "n",
-      "<leader>fg",
+      "<leader>fg", --espace + fg
       "<cmd>Telescope live_grep<cr>",
       { desc = "Recherche de chaînes de caractères dans le contenu des fichiers" }
     )
     keymap.set(
       "n",
-      "<leader>fb",
+      "<leader>fb", --espace + fb
       "<cmd>Telescope buffers<cr>",
       { desc = "Recherche de chaînes de caractères dans les noms de buffers" }
     )
     keymap.set(
       "n",
-      "<leader>fx",
+      "<leader>fx", --espace +fx
       "<cmd>Telescope grep_string<cr>",
       { desc = "Recherche de la chaîne de caractères sous le curseur" }
     )

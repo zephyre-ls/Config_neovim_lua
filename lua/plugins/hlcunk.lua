@@ -1,9 +1,9 @@
+-- Meilleur affichage des blocs de code, l'indentation est plus visible
 return {
     "asters1/hlchunk.nvim",
     config = function()
         require("hlchunk").setup({
-            -- Voici une configuration de base ; modifie selon tes besoins
-            chunk = {
+            chunk = { --chunk = bloc de code
 				        chars = {
     								horizontal_line = "─",
         						vertical_line = "│",
@@ -11,7 +11,7 @@ return {
         						left_bottom = "└",
         						right_arrow = "─",
    							 },
-  						  style = "#00ffff",
+  						  style = "#00ffff",  --couleur bordures des blocs
                 enable = true,
                 use_treesitter = true,
                 style = "#FFA500", -- Couleur des lignes de chunk
@@ -21,7 +21,7 @@ return {
                 style = "#77DD77", -- Couleur des lignes d'indentation
             },
             line_num = {
-                enable = true, -- Désactive l'aperçu des numéros de ligne
+                enable = true, -- Affichage n° lignes
             },
             blank = {
                 enable = false, -- Désactive le surlignage des espaces blancs

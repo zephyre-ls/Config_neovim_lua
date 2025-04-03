@@ -1,3 +1,4 @@
+-- theme utilisé 
 return {
   "lunarvim/darkplus.nvim",
   lazy = false,

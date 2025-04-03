@@ -34,6 +34,9 @@
 | Aller à la fenêtre de droite               | Normal       | `Ctrl + L`  |
 | Aller au buffer suivant                    | Normal       | `Maj + L`   |
 | Aller au buffer précédent                  | Normal       | `Maj + H`   |
+| Chercher un fichier                        | Normal       | `Espace ff` |
+| Cherche caractere dans fichierS            | Normal       | `Espace fg` |
+
 
 
 <p align="center">

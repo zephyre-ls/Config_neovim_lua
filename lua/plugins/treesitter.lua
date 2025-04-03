@@ -1,4 +1,4 @@
--- pour l'instant qd je fais ctrl + espace ca me deplace juste de mot en mot
+-- Plugin de synthaxe, ameliore color syntatique.
 return {
   "nvim-treesitter/nvim-treesitter",  
   build = ":TSUpdate",  -- qd plugin installé, la commande ":TSUpdate" est exe pour s'assurer que les parsers sont à jour
@@ -24,8 +24,7 @@ return {
         "lua",
         "vim",  -- (configurations et scripts Vim)
       },
-
-      --  <Ctrl-space> sélectionne le bloc courant spécifique au langage de programmation
+-- Ctrl + Espace = selection du bloc, refaire ctrl + espace selectionne un autre bloc
       incremental_selection = {  --sélectionner progressivement des blocs de code
         enable = true,
         keymaps = {  -- config des raccourcis clavier
