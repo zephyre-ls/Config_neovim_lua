@@ -1,3 +1,4 @@
+-- Personnalise la statusline(barre d'état en bas) et la winbar(bare des fenêtres)
 return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -8,7 +9,7 @@ return {
     -- configuration de lualine
     lualine.setup({
       options = {
-        icons_enabled = true,
+        icons_enabled = true, --affichage icone
         theme = "auto",
         component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },
@@ -26,21 +27,21 @@ return {
         },
       },
       sections = {
-        lualine_a = { "mode" },
-        lualine_b = { "branch", "diff", "diagnostics" },
-        lualine_c = { { "filename", path = 1 } },
+        lualine_a = { "mode" }, --affichage du mode
+        lualine_b = { "branch", "diff", "diagnostics" }, --branche git
+        lualine_c = { { "filename", path = 1 } }, --nom du fichier + chemin relatif
         lualine_x = {
           {
             lazy_status.updates,
             cond = lazy_status.has_updates,
             color = { fg = "#ff9e64" },
           },
-          { "encoding" },
-          { "fileformat" },
-          { "filetype" },
+          --{ "encoding" }, --encodage du fichier, osf pour l'instant
+          --{ "fileformat" }, -- format du fichier, osf pour l'instant
+          { "filetype" }, --type de fichier 
         },
-        lualine_y = { "progress" },
-        lualine_z = { "location" },
+        lualine_y = { "progress" }, --progressions du curseur dans le fichier (en%);
+        lualine_z = { "location" }, --position actuelle dans le fichier (ligne et colonne)
       },
       inactive_sections = {
         lualine_a = {},

@@ -1,4 +1,5 @@
-	return {
+-- Affiche les diff entre des fichiers dans gits (bon pour l'instant je ne m'en sert pas à voir avec le temps si je prend le réfléxe et si j'arrive à l'utiliser, par encore tout compris)
+return {
   "lewis6991/gitsigns.nvim",
   event = { "BufReadPre", "BufNewFile" },
   opts = {
@@ -15,11 +16,13 @@
         vim.keymap.set(mode, l, r, { buffer = bufnr, desc = desc })
       end
 
-      -- Navigation
+      -- Navigation dans les hunks;
+			-- hunk = portion de code modifé par rapport à la v précédente dans git
+			-- ]h = suivant [h = précédent
       map("n", "]h", gs.next_hunk, "Next Hunk")
       map("n", "[h", gs.prev_hunk, "Prev Hunk")
 
-      -- Actions
+      -- Actions 
       map("n", "<leader>hs", gs.stage_hunk, "Stage hunk")
       map("n", "<leader>hr", gs.reset_hunk, "Reset hunk")
       map("v", "<leader>hs", function()
