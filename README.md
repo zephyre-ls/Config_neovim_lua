@@ -7,13 +7,12 @@
 | `gitsigns`                 | Gestion des changements Git  |
 | `header`                   | Ajouter des en-têtes |
 | `hlcunk`                   | Gestion des highlight groups |
-| `kanagawa`                 | Thème de couleurs |
+| `theme`                 | Thème de couleurs |
 | `lualine`                  | Personnalise barre d'état en bas de l'éditeur|
 | `nvim-tree`                | Explorateur de fichiers |
 | `telescope`                | Interface de recherche et de filtrage |
 | `treesitter`               | Coloration synthaxique |
 | `cellular-automaton`       | Gadget |
-| `conform`                  |         |
 | `dressing`                 | |
 
 </p>
