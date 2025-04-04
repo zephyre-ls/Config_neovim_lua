@@ -6,7 +6,7 @@
 |----------------------------|----------------------------|
 | `gitsigns`                 | Gestion des changements Git  |
 | `header`                   | Ajouter des en-têtes |
-| `hlcunk`                   | Gestion des highlight groups |
+| `hlcunk`                   | Gestion des accolade et groupe de code |
 | `theme`                 | Thème de couleurs |
 | `lualine`                  | Personnalise barre d'état en bas de l'éditeur|
 | `nvim-tree`                | Explorateur de fichiers |
