@@ -33,7 +33,7 @@ opt.clipboard = "unnamedplus" -- presse papier du système par défaut pour cc
 opt.splitright = true -- le split vertical d'une fenêtre s'affiche à droite
 opt.splitbelow = true -- le split horizontal d'une fenêtre s'affiche en bas
 
-opt.swapfile = false -- on supprime le pénible fichier de swap
+opt.swapfile = true 
 
 opt.undofile = true -- on autorise l'undo à l'infini (même quand on revient sur un fichier qu'on avait fermé)
 
